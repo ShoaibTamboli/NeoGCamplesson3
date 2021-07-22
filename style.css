@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -99,6 +100,7 @@ hr {
 .hero-heading{
     padding-top: 1rem;
   color: var(--darkgray);
+  text-align: center;
 }
 
 /* Sections */
@@ -117,3 +119,19 @@ hr {
 }
 
 /* Footer */
+
+.footer{
+    background-color: var(--primarycolor);
+padding: 2rem;
+text-align: center;
+color: white;
+border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+
+}
+.footer ul{
+    padding-inline-start: 0rem;
+}
