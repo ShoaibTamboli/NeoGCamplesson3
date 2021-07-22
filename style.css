@@ -76,6 +76,7 @@ hr {
 
 }
 
+
 .navigation .list-non-bullet  {
     text-align: right;
 }
@@ -134,4 +135,9 @@ border-top-right-radius: 1rem;
 }
 .footer ul{
     padding-inline-start: 0rem;
+}
+ 
+.footer .footer-header{
+    font-weight: bold;
+    font-size: medium;
 }
