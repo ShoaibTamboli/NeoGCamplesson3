@@ -50,3 +50,31 @@ hr{
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+/* Nav */
+
+.navigation{
+
+    background-color:var(--primarycolor);
+ color: white;
+ padding: 1rem;
+ border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.navigation .link{
+    color: white;
+  
+}
+
+ .list-non-bullet .link{
+
+    text-align: right;
+}
+.navigation .link-active{
+    font-weight: bold;
+
+}
