@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson 3</title>
-<!-- Css way 1: Style tag -->
+    <!-- Css way 1: Style tag -->
     <!-- <style>
 body{
     color: rgb(244, 127, 255);
@@ -16,11 +16,11 @@ body{
 
     <!-- Third way of doing Css: External link -->
 
- <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Welcome to Lesson 3</h1> 
+    <h1>Welcome to Lesson 3</h1>
     <!-- style="color:red"  -->
     <p>Hello...This is my first page. I will be creating a content.</p>
 
@@ -54,8 +54,8 @@ body{
 
     <h2>lists</h2>
 
-    <h3 >UnOrdered List</h3>
-<p>This list will not have bullet</p>
+    <h3>UnOrdered List</h3>
+    <p>This list will not have bullet</p>
     <ul class="list-non-bullet">
 
         <li>List One</li>
@@ -94,7 +94,7 @@ body{
 
     <nav class="navigation">
 
-        <div class="nav-brand">I am  Brand</div>
+        <div class="nav-brand">I am Brand</div>
 
         <ul class="list-non-bullet">
             <li class="list-item-inline">
@@ -111,9 +111,9 @@ body{
     </nav>
     <hr />
     <h2>Header</h2>
-    <header>
-        <img src="images/Hero.svg" />
-        <h1>Heading Inside header</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/Hero.svg" />
+        <h1 class="hero-heading" >Shoaib the <span style="color: var(--primarycolor);">Web developer</span></h1>
     </header>
 
     <hr>
@@ -122,40 +122,45 @@ body{
     <h2>@Section</h2>
 
 
-    <section>
+    <section class="section">
+<div class="container container-center">
 
-        <h3>White Section</h3>
+    <h1>White Section</h1>
 
-        <p> This will have white background</p>
+    <p> The object-oriented nature of JavaScript is important to understand if you want to go further with your knowledge of the language and write more efficient code, therefore we've provided this module to help you.</p>
 
+</div>
+ 
     </section>
 
-    <section>
+    <section class="section ow">
+<div class="container container-center">
+    <h1>Offwhite Section</h1>
 
-        <h3>@Offwhite Section</h3>
-
-        <p> This will have Grey background</p>
+    <p> The object-oriented nature of JavaScript is important to understand if you want to go further with your knowledge of the language and write more efficient code, therefore we've provided this module to help you.</p>
 
 
+</div>
+        
 
     </section>
 
     <hr>
-<h2>Footer</h2>
+    <h2>Footer</h2>
 
-<footer>
-    <div> Some small heading inside footer </div>
+    <footer>
+        <div> Some small heading inside footer </div>
         <ul>
             <li>Social one</li>
             <li>Social two</li>
             <li>Social three</li>
         </ul>
-   
-</footer>
 
-<div style="height: 30vh;">
+    </footer>
 
-</div>
+    <div style="height: 30vh;">
+
+    </div>
 </body>
 
 </html>
