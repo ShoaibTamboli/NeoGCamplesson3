@@ -110,10 +110,10 @@ hr {
     padding: 2rem;
 }
 
-.section h1{
+/* .section h1{
     text-align: center;
  
-}
+} */
 
 .ow{
   background-color: var(--offwhite);
@@ -140,4 +140,18 @@ border-top-right-radius: 1rem;
 .footer .footer-header{
     font-weight: bold;
     font-size: medium;
+}
+
+/* Padding for Oredred lists */
+
+.showcase-list{
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* BG image opacity */
+
+.bg-image{
+    opacity: 0.5;
+    position: initial;
 }
