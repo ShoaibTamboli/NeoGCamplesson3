@@ -1,0 +1,26 @@
+.blogContainer{
+text-align: center;
+    
+}
+
+body{
+    padding: 0rem;
+    margin: 0rem;
+    background-color: #bab8ec
+   
+}
+
+h1, img {
+    text-align: center;
+}
+
+p{
+
+font-family: sans-serif;
+font-size: 20px;
+
+}
+
+i{
+    font-size: 20px;
+}
