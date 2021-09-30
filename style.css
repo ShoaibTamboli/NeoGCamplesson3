@@ -69,6 +69,8 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
+    font-family: cursive;
+    font-size: large;
 }
 
 .navigation .link {
